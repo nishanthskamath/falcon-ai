@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/ping")
 def ping():
-    return {"message": "pong! server is alive"}
+    return {"message": "pong"}
